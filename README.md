@@ -18,9 +18,13 @@ and packaging.
 
 text-utility-api/
 ├── app.py # Flask application and routes
+
 ├── text_utils_pkg/ # Installable package containing core logic
+
 │ ├── init.py
+
 │ └── text_utils.py
+
 ├── test_text_utils.py # Unit tests for the core logic
 ├── pyproject.toml # Package metadata (modern standard)
 ├── setup.py # Package metadata (compatibility)
