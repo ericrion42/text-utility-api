@@ -8,7 +8,7 @@ Run with: python -m unittest test_text_utils.py
 # pylint: disable=missing-function-docstring
 
 import unittest
-from text_utils import is_palindrome, word_count, reverse_text
+from text_utils_pkg.text_utils import is_palindrome, word_count, reverse_text
 
 
 class TestIsPalindrome(unittest.TestCase):

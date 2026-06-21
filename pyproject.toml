@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "text-utils-pkg"
+version = "1.0.0"
+description = "Simple text utility functions: palindrome check, word count, and string reversal"
+authors = [
+    { name = "Eric Rion" }
+]
+requires-python = ">=3.9"
