@@ -17,18 +17,23 @@ and packaging.
 ## Project structure
 
 text-utility-api/
-├── app.py # Flask application and routes
 
-├── text_utils_pkg/ # Installable package containing core logic
+├── app.py                  # Flask application and routes
 
-│ ├── init.py
+├── text_utils_pkg/         # Installable package containing core logic
 
-│ └── text_utils.py
+│   ├── init.py
 
-├── test_text_utils.py # Unit tests for the core logic
-├── pyproject.toml # Package metadata (modern standard)
-├── setup.py # Package metadata (compatibility)
-├── requirements.txt # External dependencies
+│   └── text_utils.py
+
+├── test_text_utils.py      # Unit tests for the core logic
+
+├── pyproject.toml          # Package metadata (modern standard)
+
+├── setup.py                # Package metadata (compatibility)
+
+├── requirements.txt        # External dependencies
+
 └── README.md
 
 ## Setup
