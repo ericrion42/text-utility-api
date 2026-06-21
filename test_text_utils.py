@@ -1,6 +1,11 @@
-# test_text_utils.py
-# Automated unit tests for text_utils.py.
-# Run with: python -m unittest test_text_utils.py
+"""
+test_text_utils.py
+
+Automated unit tests for text_utils.py.
+Run with: python -m unittest test_text_utils.py
+"""
+
+# pylint: disable=missing-function-docstring
 
 import unittest
 from text_utils import is_palindrome, word_count, reverse_text

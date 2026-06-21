@@ -1,7 +1,9 @@
-# text_utils.py
-# Core text-processing logic for the Text Utility API.
-# Kept separate from Flask so these functions can be tested independently.
+"""
+text_utils.py
 
+Core text-processing logic for the Text Utility API.
+Kept separate from Flask so these functions can be tested independently.
+"""
 
 def is_palindrome(text):
     """
@@ -38,4 +40,3 @@ def reverse_text(text):
     Example: "Hello" -> "olleH"
     """
     return text[::-1]
-
